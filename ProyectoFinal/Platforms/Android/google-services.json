@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "345797208676",
+    "firebase_url": "https://moviles2024-a2211-default-rtdb.firebaseio.com",
+    "project_id": "moviles2024-a2211",
+    "storage_bucket": "moviles2024-a2211.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345797208676:android:2c451a81ed1b1169f68d71",
+        "android_client_info": {
+          "package_name": "com.companyname.proyectofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDImtNYLR8fqq9mknRDOfxnggvdZG76Z1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

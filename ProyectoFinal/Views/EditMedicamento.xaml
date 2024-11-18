@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.Views.EditMedicamento"
+             Title="EditMedicamento">
+    <VerticalStackLayout>
+        <Label 
+            Text="Editar Medicamento"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+             Text="Guardar Medicamento"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />  
+
+        <Entry x:Name="NombreEntry" Placeholder="Nombre" />
+        <Entry x:Name="UnidadesEntry" Placeholder="Unidades" Keyboard="Numeric" />
+        <Entry x:Name="PrecioEntry" Placeholder="Precio Unitario" Keyboard="Numeric" />
+        <Entry x:Name="DescripcionEntry" Placeholder="Descripción" />
+        <Entry x:Name="UbicacionEntry" Placeholder="Ubicación" />
+        <Switch x:Name="EstadoSwitch" IsToggled="true" />
+        <Button x:Name="btnActualizar" Text="Guardar" Clicked="btnActualizar_Clicked"  />
+    </VerticalStackLayout>
+</ContentPage>
